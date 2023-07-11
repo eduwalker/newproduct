@@ -1,0 +1,97 @@
+body {
+  background-color: #c7c7c7;
+  font-family: Arial, sans-serif;
+  background-image:url(../images/wallpaper2you_418256.jpg);
+  background-position: center;
+  background-size: 100% auto;
+}
+
+.container {
+  width: 600px;
+  margin: 250px auto;
+  background-color: #bed1db;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  text-align: center;
+  color: #333333;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.product {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.product-code {
+  font-size: 14px;
+  color: #888888;
+  margin-bottom: 5px;
+}
+
+.product-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.product-value {
+  font-size: 14px;
+  color: #4caf50;
+  margin-bottom: 15px;
+}
+
+.product-actions {
+  text-align: center;
+}
+
+.action-button {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 5px;
+  margin-right: 5px;
+  background-color: #4caf50;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.action-button.edit {
+  background-color: #2196f3;
+}
+
+.action-button.delete {
+  background-color: #f44336;
+}
+
+.action-button:hover {
+  opacity: 0.8;
+}
+
+.back-button {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 5px;
+  background-color: #2196f3;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.back-button:hover {
+  opacity: 0.8;
+}

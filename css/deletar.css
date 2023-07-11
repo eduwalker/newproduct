@@ -1,0 +1,44 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    background-image:url(../images/wallpaper2you_418256.jpg);
+    background-position: center;
+    background-size: 100% auto;
+  }
+  
+  .container {
+    width: 400px;
+    margin: 400px auto;
+    background-color: #bed1db;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.10);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333333;
+  }
+  
+  p {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .back-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .back-button:hover {
+    background-color: #45a049;
+  }
+  
+  
